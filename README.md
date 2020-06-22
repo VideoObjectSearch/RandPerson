@@ -3,7 +3,7 @@ Surpassing Real-World Source Training Data: Random 3D Characters for Generalizab
 
 
 ## Link of the Dataset
-### Data of arXiv
+
 Experiments subset images can be downloaded from the following links:<br>
 * Baidu Yun Drive: 
 	* images [link](https://pan.baidu.com/s/1peTSlhze9BzDQGbcakkz2w) (code:ueeg)<br>

@@ -52,3 +52,10 @@ Finally, we created 8,000 different 3D characters, including 114 characters with
 Unity3D (https://unity.com/) is a cross-platform game engine that can be used to create various 3D games. We obtain a set of customized environments, comprising streets, forest paths, highways and laboratories, among others, with bright light, dark light, blue light, etc. Fig. 5 shows some example scenarios used in this work.
 ![fig5](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png)  
 ## Experiments Results
+
+To validate the effectiveness of the RandPerson dataset, we apply a basic deep learning model for cross-dataset person re-identification. All experiments are implemented in PyTorch, using an adapted version of the Open-Source Person Re-Identification Library (open-reid). The backbone network is ResNet-50. The widely used softmax cross-entropy is adopted as the loss function. Person images are resized to 256*128, then a random horizontal flipping is used for data augmentation. The batch size of training samples is 32. Stochastic Gradient Descent (SGD) is applied for optimization, with momentum 0.9, and weight decay 5*10^{-4}. The learning rate is set to 0.001 for the backbone network, and 0.01 for newly added layers. When the training data involves real-world images, these rates are decayed by 0.1 after 40 epochs, and the training stops after 60 epochs. Otherwise, these rates are decayed by 0.1 after 10 epochs, and the training stops after 20 epochs.
+The result is shown below。
+![fig6](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png)  
+![fig7](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png)  
+![fig8](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png)  
+![fig9](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png)  

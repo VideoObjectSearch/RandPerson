@@ -43,20 +43,14 @@ MakeHuman (http://www.makehumancommunity.org/) is a free and open-source softwar
 
 Since each clothing model comes with a UV texture map defining the clothing texture, altering this can significantly change the appearance of the clothing. Therefore, we propose to generate a large number of clothing models by altering the UV texture maps of available clothing models. Fig. 4 shows how to generate UV texture maps.
 
-<div style="text-align: center; width: 500px;">
-    <img src="https://i.ibb.co/cgsGYqp/generate-UV.jpg" width="300px" style="margin: 0 auto"/>
-</div>
+Now that we have a great number of UV texture maps, a new clothing model can be created by choosing an existing model, and replacing its UV texture map with one randomly sample from the pool of our downloaded or generated UV texture maps. Examples of generated clothing can be seen in Fig. 5, which shows how different UV maps can be used to texturize the same clothing model, and how the generated clothes and rendered images look differently. By utilizing these large numbers of UV texture maps, we obtain a series of different outfits, which can be further used to create different 3D characters.
 
-
-
-Now that we have a great number of UV texture maps, a new clothing model can be created by choosing an existing model, and replacing its UV texture map with one randomly sample from the pool of our downloaded or generated UV texture maps. Examples of generated clothing can be seen in Fig. 4, which shows how different UV maps can be used to texturize the same clothing model, and how the generated clothes and rendered images look differently. By utilizing these large numbers of UV texture maps, we obtain a series of different outfits, which can be further used to create different 3D characters.
-
-![fig4](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png)  
-
-Finally, we created 8,000 different 3D characters, including 114 characters with the original clothing models, 2,886 with UV texture maps from web images, and 5,000 with random UV maps. The character models created are saved as standard MakeHuman .mhm files, and can then be exported to several other file types to be used in animation software. In this work, we use the .fbx file type for the exported 3D character model.
+![fig3](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/texture.jpg)  
 
 Unity3D (https://unity.com/) is a cross-platform game engine that can be used to create various 3D games. We obtain a set of customized environments, comprising streets, forest paths, highways and laboratories, among others, with bright light, dark light, blue light, etc. Fig. 5 shows some example scenarios used in this work.
+
 ![fig5](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png)  
+
 ## Experimental Results
 
 To validate the effectiveness of the RandPerson dataset, we apply a basic deep learning model for cross-dataset person re-identification. All experiments are implemented in PyTorch, using an adapted version of the Open-Source Person Re-Identification Library (open-reid). The backbone network is ResNet-50. The widely used softmax cross-entropy is adopted as the loss function. Person images are resized to 256*128, then a random horizontal flipping is used for data augmentation. The batch size of training samples is 32. Stochastic Gradient Descent (SGD) is applied for optimization, with momentum 0.9, and weight decay 5*10^{-4}. The learning rate is set to 0.001 for the backbone network, and 0.01 for newly added layers. When the training data involves real-world images, these rates are decayed by 0.1 after 40 epochs, and the training stops after 60 epochs. Otherwise, these rates are decayed by 0.1 after 10 epochs, and the training stops after 20 epochs.

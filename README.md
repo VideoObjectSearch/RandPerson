@@ -49,7 +49,7 @@ Now that we have a great number of UV texture maps, a new clothing model can be 
 
 Unity3D (https://unity.com/) is a cross-platform game engine that can be used to create various 3D games. We obtain a set of customized environments, comprising streets, forest paths, highways and laboratories, among others, with bright light, dark light, blue light, etc. Fig. 6 shows some example scenarios used in this work.  We set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 7, where three cameras are mounted, represented in yellow, green, and red, respectively.
 
-![fig5](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.jpg)  
+![fig5](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scenes.jpg)  
 
 ## Experimental Results
 

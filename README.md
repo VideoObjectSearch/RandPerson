@@ -1,14 +1,17 @@
 # RandPerson
 This project contains the ReandPerson dataset described in our paper "Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification".
 
+<p>&nbsp;</p>
 <p align="center"><img width=700 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/unity.png"></p>
 <p align="center">Fig. 1. Sample images from the proposed RandPerson dataset.</p>
+<p>&nbsp;</p>
 
 ## Table of Contents
 
 - [Dataset Description](#link-of-the-dataset)
 - [Characters and Scenes](#characters-and-scenes)
 - [Experimental Results](#experimental-results)
+- [Contacts](#contacts)
 - [Citation](#citation)
 
 ## Dataset Description
@@ -57,6 +60,20 @@ To validate the effectiveness of the RandPerson dataset, we apply a basic deep l
 
 <p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png"></p>
 
+## Contacts
+
+Yanan Wang
+Inception Institute of Artificial Intelligence (IIAI)
+yanan.wang@inceptioniai.org
+
 ## Citation
-//BibTex of arXiv paper
+
+@article{RandPerson,
+  author    = {Yanan Wang and
+               Shengcai Liao and
+               Ling Shao},
+  title     = {Surpassing Real-World Source Training Data: Random {3D} Characters for Generalizable Person Re-Identification},
+  journal   = {arXiv:2006.xxxx},
+  year      = {2020}
+}
 

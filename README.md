@@ -39,12 +39,7 @@ Taking "000000_c00_s00_f000264.jpg" as an example:
 ## Characters and Scenes
 MakeHuman (http://www.makehumancommunity.org/) is a free and open-source software used to create 3D character models. Characters in MakeHuman are built upon a standard 3D body shape, using various body extensions (e.g. hairstyles and beards), clothes, and accessories. Clothes models include most ordinary types of clothing, such as dresses, suits, shirts, coats, jeans, trousers, shorts, and skirts. Fig. 2 shows some examples of different types of clothing. In MakeHuman, new 3D characters are created through simple drag and drop operations in the working panel, so as to combine various components together and adjust their attributes, such as skeleton, body parameters, clothes, etc. Fig. 3 shows an example of how to create a 3D character in MakeHuman. After UV mapping, the textured 3D components can be applied to the standard 3D human model to form a new individualized 3D character.
 
-<div style="text-align: center; width: 500px;">
-    <img src="https://i.ibb.co/YLC3Nst/clothes-list.jpg" width="400px" />
-    <img scr = "https://i.ibb.co/5M9nNHN/make-human-all.jpg" width="400px" /> 
-</div>
-
-
+![fig2](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.jpg)  
 
 Since each clothing model comes with a UV texture map defining the clothing texture, altering this can significantly change the appearance of the clothing. Therefore, we propose to generate a large number of clothing models by altering the UV texture maps of available clothing models. Fig. 4 shows how to generate UV texture maps.
 

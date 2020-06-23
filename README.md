@@ -42,7 +42,7 @@ MakeHuman (http://www.makehumancommunity.org/) is a free and open-source softwar
 ![fig2](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.jpg)  
 
 Since each clothing model comes with a UV texture map defining the clothing texture, altering this can significantly change the appearance of the clothing. Therefore, we propose to generate a large number of clothing models by altering the UV texture maps of available clothing models. Fig. 4 shows how to generate UV texture maps.
-![fig3](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/generate_UV.jpg) {:width="400px"}
+![fig3](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/generate_UV.jpg){:height="100px" width="400px"}
 
 Now that we have a great number of UV texture maps, a new clothing model can be created by choosing an existing model, and replacing its UV texture map with one randomly sample from the pool of our downloaded or generated UV texture maps. Examples of generated clothing can be seen in Fig. 4, which shows how different UV maps can be used to texturize the same clothing model, and how the generated clothes and rendered images look differently. By utilizing these large numbers of UV texture maps, we obtain a series of different outfits, which can be further used to create different 3D characters.
 

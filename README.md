@@ -47,37 +47,21 @@ Now that we have a great number of UV texture maps, a new clothing model can be 
 
 ![fig3](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/texture.jpg)  
 
-Unity3D (https://unity.com/) is a cross-platform game engine that can be used to create various 3D games. We obtain a set of customized environments, comprising streets, forest paths, highways and laboratories, among others, with bright light, dark light, blue light, etc. Fig. 5 shows some example scenarios used in this work.
+Unity3D (https://unity.com/) is a cross-platform game engine that can be used to create various 3D games. We obtain a set of customized environments, comprising streets, forest paths, highways and laboratories, among others, with bright light, dark light, blue light, etc. Fig. 6 shows some example scenarios used in this work.  We set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 7, where three cameras are mounted, represented in yellow, green, and red, respectively.
 
-![fig5](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png)  
+![fig5](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.jpg)  
 
 ## Experimental Results
 
-To validate the effectiveness of the RandPerson dataset, we apply a basic deep learning model for cross-dataset person re-identification. All experiments are implemented in PyTorch, using an adapted version of the Open-Source Person Re-Identification Library (open-reid). The backbone network is ResNet-50. The widely used softmax cross-entropy is adopted as the loss function. Person images are resized to 256*128, then a random horizontal flipping is used for data augmentation. The batch size of training samples is 32. Stochastic Gradient Descent (SGD) is applied for optimization, with momentum 0.9, and weight decay 5*10^{-4}. The learning rate is set to 0.001 for the backbone network, and 0.01 for newly added layers. When the training data involves real-world images, these rates are decayed by 0.1 after 40 epochs, and the training stops after 60 epochs. Otherwise, these rates are decayed by 0.1 after 10 epochs, and the training stops after 20 epochs.
-First, we perform training on each individual dataset. The cross-dataset evaluation results with CUHK03-NP as the target dataset are listed in Table 2. Interestingly, the proposedRandPersondatasetoutperformsallthereal-world datasets, with improvements of 1.8% - 6.8% in Rank-1, and 0.2% - 4.9% in mAP. To the best of our knowledge, this is the ﬁrst time a synthetic dataset has outperformed real-world datasets in person re-identiﬁcation. Compared toexistingsyntheticdatasets,RandPersonalsooutperforms these by an impressively large margin, with 6.0% - 13.0% improvements in terms of Rank-1, and 4.6% - 10.4% improvements in mAP. 
+To validate the effectiveness of the RandPerson dataset, we apply a basic deep learning model for cross-dataset person re-identification. All experiments are implemented in PyTorch, using an adapted version of the Open-Source Person Re-Identification Library (open-reid). 
 
-![fig6](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png)  
-
-Table 3 shows results with Market-1501 as the target dataset. In this popular dataset with a larger scale, RandPerson again outperforms all real-world datasets, with the Rank-1 improved by 2.8%-19.7%, and mAP by 3.0%13.2%. NotethatDukeMTMC-reIDandMSMT17areboth large-scalereal-worlddatasets. Althoughthereisalargedomain gap between RandPerson and real-world images, our dataset’s enhanced superior performance indicates that we have successfully enhanced the diversity in identities and scenes. Besides, compared to synthetic datasets, the advantage of RandPerson is even more obvious, with improvements of 8.8% - 48.3% in Rank-1, and 5.7% - 24.8% in mAP. RandPerson outperforms SyRI by a particularly large margin (23.8% in Rank-1 and 15.3% in mAP), indicating that our dataset makes more efﬁcient usage of scenes, while the number of identities is also important.
+The experimental results are shown in the table below.
 
 
-![fig7](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png)  
+![fig6](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table1.jpg)  
 
-The cross-dataset evaluation results with DukeMTMCreID as the target dataset are listed in Table 4. As can be observed, compared to synthetic datasets, again, RandPerson improves the performance by a large extent, with a 11.3% - 42.7% increase in Rank-1, and 7.9% - 25.0% increase in mAP. However, as for the real-world datasets, though RandPerson performs much better than CUHK03NP and Market-1501, it is inferior to MSMT17. One possible reason is that the domain gap between RandPerson and DukeMTMC-reID is much larger than that betweenMSMT17andDukeMTMC-reID,andrememberthat MSMT17 is the largest and most diverse real-world person re-identiﬁcation dataset. 
+![fig7](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.jpg)  
 
-![fig8](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png)  
-
-Lastly, from the results shown in Table 5, it can be observed that, when tested on MSMT17, RandPerson outperforms all synthetic and real-world datasets, though it is slightly inferior to DukeMTMC-reID. This conﬁrms the smaller domain gap between MSMT17 and DukeMTMCreID. Nevertheless, all results are quite low, indicating that MSMT17 is more diverse and challenging.
-
-![fig9](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png)  
-
-Though the proposed synthetic dataset RandPerson outperforms all existing real-world and synthetic datasets in most cases for cross-dataset person re-identiﬁcation, it is still not as good as DukeMTMC-reID or MSMT17 when one of them is used for training and the other one for evaluation. This is due to the intrinsic domain gap between synthetic and real-world datasets. One way to reduce the domaingapistofusesyntheticandreal-worlddatasets. Therefore,weperformanotherroundofexperimentsafterdataset fusion. 
-
-The results for dataset fusion are also reported in Tables 2-5. We make three observations. Firstly, the models trained on real-world datasets are all improved by additionally including RandPerson when training for cross-dataset evaluation. Inthiscase,asreportedinTables2-5,theRank1 is improved by 1.8%-24.4%, and the mAP is improved by 1.6%-18.9%. This indicates that RandPerson, though a synthetic dataset, is complementary to real-world datasets for person re-identiﬁcation training. 
-
-Secondly, even in the same domain, it can be observed that additionally including RandPerson for training considerably improves the performance compared to only using the training data of the target dataset. For example, from the results shown in the ﬁrst two rows of Table 2, it can be observed that, compared to training only on CUHK03, the Rank-1 score is signiﬁcantly improved by 26.2% and mAP by 24.0% when additionally including RandPerson. 
-
-Lastly, compared to only using RandPerson for training in cross-dataset evaluation, data fusion also improves the performance by a lot. It can be inferred from the tables that the improvements for Rank-1 range from 0.0%12.2% (except RandPerson + CUHK03 for MSMT17), and 0.2%-12.2% for mAP. This conﬁrms that when real-world datasets are combined with synthetic datasets for training, thedomaingapbetweenthemcanbeconsiderablyreduced.
 
 ## Citation
 //BibTex of arXiv paper

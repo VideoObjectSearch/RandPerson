@@ -1,7 +1,7 @@
 # RandPerson
 This project contains the ReandPerson dataset described in our paper "Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification".
 
-<p align="center"><img width=800 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/unity.png"></p>
+<p align="center"><img width=700 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/unity.png"></p>
 <p align="center">Fig. 1. Sample images from the proposed RandPerson dataset.</p>
 
 ## Table of Contents
@@ -41,15 +41,10 @@ The filenames are encoded as follows. Take "000000_c00_s00_f000264.jpg" as an ex
 
 We propose to generate a large number of clothing models by randomly generating a lot of UV texture maps. Then a new clothing model can be created by choosing an existing clothing model, and replacing its UV texture map with a generated one. Fig. 2 shows examples of generated clothing and characters.
 
-<p align="center"><img width=400 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"></p>
-<p align="center">Fig. 2. Examples of generated clothes and characters.</p>
+<p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
+<p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. Examples of generated clothes and characters. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Customized Unity3D scenarios used in this work.</p>
 
-For the rendering in Unity3D, we obtain a set of customized environments, including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3.
-
-<p align="center"><img width=400 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
-<p align="center">Fig. 3. Customized Unity3D scenarios used in this work.</p>
-
-We set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 7. Then, the randomly generated characters can be imported and move simultaneously through the camera network.
+For the rendering in Unity3D, we obtain a set of customized environments, including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3. Then, we set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 4. Then, the randomly generated characters can be imported and move simultaneously through the camera network.
 
 <p align="center"><img width=500 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene_detail.png"></p>
 <p align="center">Fig. 4. Example configuration of camera networks and character movements.</p>

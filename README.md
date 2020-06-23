@@ -42,7 +42,7 @@ The filenames are encoded as follows. Take "000000_c00_s00_f000264.jpg" as an ex
 
 We propose to generate a large number of clothing models by randomly generating a lot of UV texture maps. Then a new clothing model can be created by choosing an existing clothing model, and replacing its UV texture map with a generated one. Fig. 2 shows examples of generated clothing and characters.
 
-<p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
+<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
 <p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. Examples of generated clothes and characters. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Customized Unity3D scenarios used in this work.</p>
 
 For the rendering in Unity3D, we obtain a set of customized environments, including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3. Then, we set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 4. Then, the randomly generated characters can be imported and move simultaneously through the camera network.

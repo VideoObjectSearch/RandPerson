@@ -7,7 +7,7 @@ Surpassing Real-World Source Training Data: Random 3D Characters for Generalizab
 
 - [Dataset Description](#link-of-the-dataset)
 - [Characters and Scenes](#characters-and-scenes)
-- [Experimental Results](#experiments-results)
+- [Experimental Results](#experimental-results)
 - [Citation](#citation)
 
 ## Dataset Description

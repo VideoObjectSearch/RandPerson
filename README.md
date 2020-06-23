@@ -43,7 +43,7 @@ We design a method to generate a large number of random UV texture maps and use 
 <p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
 <p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. Examples of generated clothes and characters. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Customized Unity3D scenarios used in this work.</p>
 
-Next, we simulate a number of different virtual environments using Unity3D, including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3. Then, we set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 4. Finally, we import multiple 3D characters at the same time, with various movements and interactions along different paths through the camera networks.
+Next, we simulate a number of different virtual environments (including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3) using Unity3D, with customized camera networks similar to real surveillance systems. Finally, we import multiple 3D characters at the same time, with various movements and interactions along different paths through the camera networks. The simulation is illustrated in Fig. 4.
 
 <p align="center"><img width=600 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene_detail.png"></p>
 <p align="center">Fig. 4. Example configuration of camera networks and character movements.</p>

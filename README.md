@@ -1,7 +1,6 @@
 # RandPerson
 This project contains the ReandPerson dataset described in our paper "Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification".  
 
-&nbsp;
 <p align="center"><img width=700 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/unity.png"></p>
 <p align="center">Fig. 1. Sample images from the proposed RandPerson dataset.</p>  
 

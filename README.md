@@ -1,5 +1,5 @@
 # RandPerson
-Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification
+This project contains the ReandPerson dataset described in our paper "Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification".
 
 ![fig1](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/unity.png)  
 

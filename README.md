@@ -18,7 +18,7 @@ surveillance systems, i.e. with a camera network and multiple people moving at t
 person images of 8,000 identities. Images in this dataset generally contain different viewpoints, poses, illuminations, backgrounds, occlusions, and resolutions, as shown in Fig. 1. 
 
 ### Download Links
-Due to the large amount of data, only the image subset used in the experiments of our paper is provided, currently. They can be downloaded from the following links.
+Due to the large amount of data, currently only the image subset used in the experiments of our paper is provided, including 128,160 images. They can be downloaded from the following links.
 
 * [Baidu Yun Drive](https://pan.baidu.com/s/1peTSlhze9BzDQGbcakkz2w) (code: ueeg)
 * [Google Drive](https://drive.google.com/file/d/12u1xdVo6-Q-i_knsbrBrRkClFkq10oNH/view?usp=sharing)
@@ -46,20 +46,16 @@ We propose to generate a large number of clothing models by randomly generating 
 
 For the rendering in Unity3D, we obtain a set of customized environments, including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3. Then, we set up a network with multiple cameras for each scene, and run them simultaneously in the virtual environments, simulating real video surveillance. An example is shown in Fig. 4. Then, the randomly generated characters can be imported and move simultaneously through the camera network.
 
-<p align="center"><img width=500 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene_detail.png"></p>
+<p align="center"><img width=600 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene_detail.png"></p>
 <p align="center">Fig. 4. Example configuration of camera networks and character movements.</p>
 
 ## Experimental Results
 
-To validate the effectiveness of the RandPerson dataset, we apply a basic deep learning model for cross-dataset person re-identification. All experiments are implemented in PyTorch, using an adapted version of the Open-Source Person Re-Identification Library (open-reid). 
+To validate the effectiveness of the RandPerson dataset, we apply a basic deep learning model for cross-dataset person re-identification. The experimental results are shown in the following tables.
 
-The experimental results are shown in the table below.
+<p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png"></p>
 
-
-![fig6](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table1.jpg)  
-
-![fig7](https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.jpg)  
-
+<p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png"></p>
 
 ## Citation
 //BibTex of arXiv paper

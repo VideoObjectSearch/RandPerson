@@ -68,7 +68,7 @@ yanan.wang@inceptioniai.org
 @article{RandPerson,  
   author    = {Yanan Wang and Shengcai Liao and Ling Shao},                 
   title     = {Surpassing Real-World Source Training Data: Random {3D} Characters for Generalizable Person Re-Identification},    
-  journal   = {arXiv:2006.xxxx},    
+  journal   = {arXiv:2006.12774},    
   year      = {2020}    
 }
 

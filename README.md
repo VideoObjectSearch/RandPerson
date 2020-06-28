@@ -30,7 +30,7 @@ randperson_subset
 ├── 000000_s00_c01_f001632.jpg
 ```
 
-The filenames are encoded as follows. Take "000000_c00_s00_f000264.jpg" as an example,
+The filenames are encoded as follows. Take "000000_s00_c00_f000264.jpg" as an example,
 *  000000 is the id of the person
 *  s00   is the id of the scene
 *  c00   is the id of the camera

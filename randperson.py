@@ -26,7 +26,7 @@ class Unity(object):
         all_pids = {}
 
         for fpath in fpaths:
-            fname = osp.basename(fpath)  # filename: id4_c1_f5.jpg
+            fname = osp.basename(fpath)  # filename: id6_s2_c2_f6.jpg
             fields = fname.split('_')
             pid = int(fields[0])
             if pid not in all_pids:

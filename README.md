@@ -25,15 +25,15 @@ Due to the large amount of data, currently only the image subset used in the exp
 ### File Structure
 ```shell
 randperson_subset
-├── 000000_c00_s00_f000264.jpg
-├── 000000_c00_s00_f001032.jpg
-├── 000000_c01_s00_f001632.jpg
+├── 000000_s00_c00_f000264.jpg
+├── 000000_s00_c00_f001032.jpg
+├── 000000_s00_c01_f001632.jpg
 ```
 
 The filenames are encoded as follows. Take "000000_c00_s00_f000264.jpg" as an example,
 *  000000 is the id of the person
-*  c00   is the id of the camera
 *  s00   is the id of the scene
+*  c00   is the id of the camera
 *  f000264   is the number of frames
 
 ## Characters and Scenes

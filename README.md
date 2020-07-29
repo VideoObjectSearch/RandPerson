@@ -31,7 +31,7 @@ randperson
 │   │      │      ├── 000000_s00_c00_f000264.jpg
 │   │      │      ├── 000000_s00_c00_f001032.jpg
 │   │      │      ├── 000000_s00_c01_f001632.jpg
-│   │      ├── camera0_1_point.txt # This file contains key points position of the images in camera0_1.tar.gz. Data format: image name, the upper left corner of the video x, the upper left corner of the video y, the lower right corner of the video x, the lower right corner of the video y, the distance of head point in the image from the upper left corner x (The following distances are from the upper left corner), the distance y of head point in the image, left shoulder distance x, left shoulder distance y, right shoulder x, right shoulder y, left hand x, left hand y, right hand x, right hand y, left foot x, left foot y, right foot x, right foot y
+│   │      ├── camera0_1_point.txt # This file contains key points position of the images in camera0_1.tar.gz. 
 │   │      ├── delete_camera0_1.tar.gz # Because the key points may also be recorded when the model is destroyed, we move the last picture of each id after cutting the picture to the file
 │   │      ├── camera0_2.tar.gz
 │   │      ├── camera0_2_point.txt
@@ -54,6 +54,8 @@ The filenames are encoded as follows. Take "000000_s00_c00_f000264.jpg" as an ex
 *  s00   is the id of the scene
 *  c00   is the id of the camera
 *  f000264   is the number of frames
+
+camera*_*_point.txt Data format: image name, the upper left corner of the video x, the upper left corner of the video y, the lower right corner of the video x, the lower right corner of the video y, the distance of head point in the image from the upper left corner x (The following distances are from the upper left corner), the distance y of head point in the image, left shoulder distance x, left shoulder distance y, right shoulder x, right shoulder y, left hand x, left hand y, right hand x, right hand y, left foot x, left foot y, right foot x, right foot y
 
 ## Characters and Scenes
 

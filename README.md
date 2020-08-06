@@ -61,7 +61,8 @@ camera*_*_point.txt Data format: image name, the upper left corner of the video 
 
 We design a method to generate a large number of random UV texture maps and use them to create different 3D clothing models. Then, an automatic code is developed to randomly generate various different 3D characters with diverse clothes, races and attributes. Fig. 2 shows examples of our generated clothing and characters.
 
-<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
+<div style="display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></div>
+
 <p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. Examples of generated clothes and characters. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Customized Unity3D scenarios used in this work.</p>
 
 Next, we simulate a number of different virtual environments (including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3) using Unity3D, with customized camera networks similar to real surveillance systems. Finally, we import multiple 3D characters at the same time, with various movements and interactions along different paths through the camera networks. The simulation is illustrated in Fig. 4.

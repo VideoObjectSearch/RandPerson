@@ -89,9 +89,11 @@ yanan.wang@inceptioniai.org
 
 ## Citation
 
+```
 @inproceedings{wang2020surpassing,
-  title={{Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification}},
-  author={Wang, Yanan and Liao, Shengcai and Shao, Ling},
-  booktitle={28th ACM International Conference on Multimedia (ACMMM)},
-  year={2020}
+	title={{Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification}},
+	author={Wang, Yanan and Liao, Shengcai and Shao, Ling},
+	booktitle={28th ACM International Conference on Multimedia (ACMMM)},
+	year={2020}
 }
+```

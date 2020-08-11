@@ -48,6 +48,8 @@ randperson
 │   ├── subset
 ├── videos
 │   uploading...
+├── readme.txt
+│   uploading...
 ```
 The filenames are encoded as follows. Take "000000_s00_c00_f000264.jpg" as an example,
 *  000000 is the id of the person
@@ -75,9 +77,9 @@ Next, we simulate a number of different virtual environments (including 11 scene
 By training person re-identification models on these synthesized person images, we demonstrate, for the first time, that models trained on virtual data can generalize
 well to unseen target images, surpassing the models trained on various real-world datasets, including CUHK03, Market-1501, and partially DukeMTMC-reID and MSMT17. The experimental results are shown in the following tables.
 
-<p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png"></p>
+<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png"></p>
 
-<p align="center"><img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=300 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png"></p>
+<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png"></p>
 
 ## Contacts
 
@@ -87,10 +89,4 @@ yanan.wang@inceptioniai.org
 
 ## Citation
 
-@article{RandPerson,  
-  author    = {Yanan Wang and Shengcai Liao and Ling Shao},                 
-  title     = {Surpassing Real-World Source Training Data: Random {3D} Characters for Generalizable Person Re-Identification},    
-  journal   = {arXiv:2006.12774},    
-  year      = {2020}    
-}
-
+Yanan Wang, Shengcai Liao, and Ling Shao, “Surpassing Real-World Source Training Data: Random 3D Characters for Generalizable Person Re-Identification.” In The 28th ACM International Conference on Multimedia (ACMMM), 12-16 October, 2020.

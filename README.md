@@ -77,9 +77,9 @@ Next, we simulate a number of different virtual environments (including 11 scene
 By training person re-identification models on these synthesized person images, we demonstrate, for the first time, that models trained on virtual data can generalize
 well to unseen target images, surpassing the models trained on various real-world datasets, including CUHK03, Market-1501, and partially DukeMTMC-reID and MSMT17. The experimental results are shown in the following tables.
 
-<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png"></p>
+<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table1.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table2.png"></p>
 
-<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png"></p>
+<p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"></p>
 
 ## Contacts
 

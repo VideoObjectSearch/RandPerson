@@ -63,9 +63,9 @@ camera*_*_point.txt Data format: image name, the upper left corner of the video 
 
 We design a method to generate a large number of random UV texture maps and use them to create different 3D clothing models. The method is shown in Fig2, colors and texture patterns are combined to create random UV texture maps. Fig.3 shows the texture patterns we used is shown. Then, an automatic code is developed to randomly generate various different 3D characters with diverse clothes, races and attributes. Fig. 4 shows examples of our generated clothing and characters.
 
-<p align="center"><img height=200 width=315 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/color.png"><img height=200 width=465 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/pattern.png"></p>
+<p align="center"><img height=200 width=200 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/color.png"><img height=200 width=200 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/pattern.png"></p>
 
-<p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. IllustrationofhowtogenerateUVtexturemaps. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Texture patterns used in this work.</p>
+<p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. Illustration of how to generate UV texture maps. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Texture patterns used in this work.</p>
 
 
 <p align="center"><img height=200 width=315 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"><img height=200 width=465 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>

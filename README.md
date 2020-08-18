@@ -61,16 +61,21 @@ camera*_*_point.txt Data format: image name, the upper left corner of the video 
 
 ## Characters and Scenes
 
-We design a method to generate a large number of random UV texture maps and use them to create different 3D clothing models. Then, an automatic code is developed to randomly generate various different 3D characters with diverse clothes, races and attributes. Fig. 2 shows examples of our generated clothing and characters.
+We design a method to generate a large number of random UV texture maps and use them to create different 3D clothing models. The method is shown in Fig2, colors and texture patterns are combined to create random UV texture maps. Fig.3 shows the texture patterns we used is shown. Then, an automatic code is developed to randomly generate various different 3D characters with diverse clothes, races and attributes. Fig. 4 shows examples of our generated clothing and characters.
+
+<p align="center"><img height=200 width=315 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/color.png"><img height=200 width=465 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/pattern.png"></p>
+
+<p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. IllustrationofhowtogenerateUVtexturemaps. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Texture patterns used in this work.</p>
+
 
 <p align="center"><img height=200 width=315 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/makehuman.png"><img height=200 width=465 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene.png"></p>
 
-<p align="center">&nbsp;&nbsp;&nbsp; Fig. 2. Examples of generated clothes and characters. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 3. Customized Unity3D scenarios used in this work.</p>
+<p align="center">&nbsp;&nbsp;&nbsp; Fig. 4. Examples of generated clothes and characters. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fig. 5. Customized Unity3D scenarios used in this work.</p>
 
-Next, we simulate a number of different virtual environments (including 11 scenes, eight outdoor and three indoor, as shown in Fig. 3) using Unity3D, with customized camera networks similar to real surveillance systems. Finally, we import multiple 3D characters at the same time, with various movements and interactions along different paths through the camera networks. The simulation is illustrated in Fig. 4.
+Next, we simulate a number of different virtual environments (including 11 scenes, eight outdoor and three indoor, as shown in Fig. 5) using Unity3D, with customized camera networks similar to real surveillance systems. Finally, we import multiple 3D characters at the same time, with various movements and interactions along different paths through the camera networks. The simulation is illustrated in Fig. 6.
 
 <p align="center"><img width=600 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/scene_detail.png"></p>
-<p align="center">Fig. 4. Example configuration of camera networks and character movements.</p>
+<p align="center">Fig. 6. Example configuration of camera networks and character movements.</p>
 
 ## Experimental Results
 

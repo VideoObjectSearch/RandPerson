@@ -3,7 +3,7 @@ import os.path as osp
 from glob import glob
 
 
-class Unity(object):
+class RandPerson(object):
 
     def __init__(self, root, combine_all=True):
 

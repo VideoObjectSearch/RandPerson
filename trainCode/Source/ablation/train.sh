@@ -1,0 +1,1 @@
+python main_softmax_ce_loss_steplr.py --dataset randperson --testset cuhk03_np_detected,market,duke,msmt --data-dir ../../Data/ --exp-dir ../../Experiments/ -b 32 -j 8 -s -1 --epochs 20 --step_size 10 --min 0 --max 0 --dropout 0.5 --lr 0.01 --height 256 -a resnet50 --final_layer layer4 --neck 0 --method SoftmaxCELoss --sub_method randperson_ep20s10 --test_fea_batch 1024

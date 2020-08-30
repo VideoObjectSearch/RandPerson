@@ -47,7 +47,23 @@ randperson
 │   ├── scene10
 │   ├── subset
 ├── videos
-│   uploading...
+│   ├── scene00
+│   │      ├── camera0_1.mp4  # This is the video corresponding to file images/scene00/camera0_1.tar.gz(or delete_camera0_1.tar.gz)
+│   │      ├── pointsCamera0_1.txt  # This file saved the key points of the camera0_1.mp4
+│   │      ├── deal_camera0_1.txt  # This file saved data extracted from the pointsCamera0_1.txt file every few seconds
+│   │      ├── camera0_2_1.mp4 # Since it is not allowed to upload files exceeding 4G, the video is cut into x_1, x_2 format video without changing the video parameters
+│   │      ├── camera0_2_2.mp4
+│   │      ├── pointsCamera0_2.txt
+│   │      ├── deal_camera0_2.txt
+│   │      ├── camera1_1.mp4
+│   │      ├── pointsCamera1_1.txt
+│   │      ├── deal_camera1_1.txt
+│   │      ├── camera1_2.mp4
+│   │      ├── pointsCamera1_2.txt
+│   │      ├── deal_camera1_2.txt
+│   ├── scene01
+│   ```
+│   ├── scene10
 ├── readme.txt
 │   uploading...
 ```

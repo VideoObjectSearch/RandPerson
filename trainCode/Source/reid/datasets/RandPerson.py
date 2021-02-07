@@ -16,7 +16,7 @@ class RandPerson(object):
         self.gallery = []
         self.query = []
         self.num_train_ids = 0
-        self.has_time_info = False
+        self.has_time_info = True
         self.load()
 
     def preprocess(self):

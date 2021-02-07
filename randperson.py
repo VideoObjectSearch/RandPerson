@@ -24,7 +24,8 @@ class RandPerson(object):
 
         data = []
         all_pids = {}
-
+        camera_offset = [0, 2, 4, 6, 8, 9, 10, 12, 13, 14, 15]
+        frame_offset = [0, 160000, 340000,490000, 640000, 1070000, 1330000, 1590000, 1890000, 3190000, 3490000]
         fps = 24
 
         for fpath in fpaths:

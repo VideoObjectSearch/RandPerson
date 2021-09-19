@@ -1,1 +1,0 @@
-skinMaterial skins/default.mhmat

@@ -102,6 +102,7 @@ well to unseen target images, surpassing the models trained on various real-worl
 
 <p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table3.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table4.png"></p>
 <p align="center"><img height=250 src="https://github.com/VideoObjectSearch/RandPerson/blob/master/img/table5.png"></p>
+
 ## Contacts
 
 Yanan Wang  
